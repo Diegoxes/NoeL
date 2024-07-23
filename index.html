@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feliz Cumpleaños Noelia</title>
+  <!-- Importar el archivo CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Fuente de Google -->
+  <link href="https://fonts.googleapis.com/css?family=Righteous|Cutive+Mono" rel="stylesheet">
+  <!-- Estilos del canvas -->
+  <style>
+    #canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -2;
+      background-color: #456ddd;
+    }
+  </style>
+</head>
+<body>
+  <!-- Canvas -->
+  <canvas id="canvas"></canvas>
+
+  <!-- Tarjeta de cumpleaños -->
+  <div class="card">
+    <div class="page cover">
+      <div class="content">
+        <h2>Para:<br />Noeliaaaaaa UwU</h2>
+        <button>
+          <strong>Haz Click</strong>
+        </button>
+      </div>
+    </div>
+    <div class="page inside">
+      <div class="content">
+        <p class="t-text">¡Feliz cumpleaños, Noelia! 🌟 Espero que este día sea tan especial como tú. Que la vida te regale sonrisas, momentos inolvidables y todo lo que tu corazón anhela. ¡Felicidades!</p>
+        
+       
+      </div>
+    </div>
+  </div>
+   <!-- Música de fondo -->
+    <audio id="backgroundMusic" loop autoplay>
+    <source src="audio.mp3" type="audio/mpeg">
+    Tu navegador no soporta la etiqueta de audio.
+  </audio>
+  <!-- Importar el archivo JavaScript -->
+  <script src="index.js"></script>
+ 
+</body>
+</html>
